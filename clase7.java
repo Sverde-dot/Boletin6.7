@@ -5,12 +5,11 @@ import java.util.Scanner;
 
 
 public class clase7 {
-    
 final double PI=3.14159;
 Scanner sc = new Scanner(System.in);
 
 public String tipoFigura(){
-System.out.println("Introduce el tipo de figura");
+System.out.println("Introduce el tipo de figura \n.1 Cadrado \n2. Triangulo \n3. Circulo ");
 String figura=sc.next();
 return figura;
 }
