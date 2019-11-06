@@ -1,21 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package boletin.pkg67;
 
-/**
- *
- * @author sverdecadilla
- */
 public class Boletin67 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Switch obx1 = new Switch();
+        String figura=obx1.tipoFigura();
+        obx1.areaFigura(figura);
     }
     
 }
