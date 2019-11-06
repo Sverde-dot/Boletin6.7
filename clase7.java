@@ -32,7 +32,7 @@ switch (figura){
         float radio=sc.nextFloat();
         System.out.println("A área do círculo é "+(PI*Math.pow(radio, 2)));
         break;
-    default:System.out.println("Opción incorrecta");
+    default:System.out.println("Figura mal escrita");
 }
 }
 }
